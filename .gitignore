@@ -1,0 +1,54 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+config/.env
+
+# Node.js dependencies (always install fresh)
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+*.log
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# Build and dist
+dist/
+build/
+*.tsbuildinfo
+
+# Temporary and cache files
+.cache/
+.temp/
+tmp/
+
+# Optional npm cache directory
+.npm
+
+# AWS and local credentials (never commit)
+.aws/
+aws-credentials.txt
+*.pem
+*.key
+
+# MongoDB and database files (if local)
+mongodb/
+*.db
+
+# GitOrbit specific local directories
+.mygitorbit/
+
+# System files
+*.DS_Store
+.AppleDouble
+.LSOverride
